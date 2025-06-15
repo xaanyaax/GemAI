@@ -15,20 +15,32 @@ const Sidebar = () => {
         <div className="space-y-3">
           <button className="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-all flex items-center justify-center space-x-2">
             <span>📘</span>
-            <span>Share to Facebook</span>
+            <span> <a href="https://www.facebook.com">Share to Facebook</a> </span>
           </button>
+
+
           <button className="w-full bg-gradient-to-r from-sky-500 to-sky-600 hover:from-sky-600 hover:to-sky-700 text-white font-medium py-3 px-4 rounded-lg transition-all flex items-center justify-center space-x-2">
             <span>🐦</span>
-            <span>Share to Twitter</span>
+            <span><a href="https://x.com/home">Share to Twitter</a></span>
           </button>
+
+
+          
           <button className="w-full bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white font-medium py-3 px-4 rounded-lg transition-all flex items-center justify-center space-x-2">
-            <span>📷</span>
+          <a href="https://www.instagram.com">
+            <span>📷  </span>
             <span>Share to Instagram</span>
+            </a>
           </button>
+          
+
+          
           <button className="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-medium py-3 px-4 rounded-lg transition-all flex items-center justify-center space-x-2">
             <span>📱</span>
             <span>Copy Link</span>
           </button>
+          
+
           <button className="w-full bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-white font-medium py-3 px-4 rounded-lg transition-all flex items-center justify-center space-x-2">
             <span>🤖</span>
             <span>Share in GemAI</span>

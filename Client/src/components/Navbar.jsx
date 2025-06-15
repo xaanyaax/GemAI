@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -9,17 +10,21 @@ const Navbar = () => {
             <div className="bg-gradient-to-r from-purple-500 to-pink-500 p-2 rounded-xl">
               <span className="text-white text-xl">✨</span>
             </div>
+            <Link to = "/">
             <h1 className="text-2xl font-bold bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent">
               GemAI
             </h1>
+            </Link>
           </div>
           <div className="flex items-center space-x-4">
             <button className="p-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors">
               <span className="text-white">⚙️</span>
             </button>
             <div className="flex items-center space-x-2 bg-gradient-to-r from-purple-500 to-pink-500 px-4 py-2 rounded-full">
+              <Link to="/profile">
               <span className="text-white">⭐</span>
-              <span className="text-white font-medium">Pro</span>
+              <span className="text-white font-medium">Profile</span>
+              </Link>
             </div>
           </div>
         </div>
